@@ -6,7 +6,6 @@
     border-radius: 4px;
     text-align: right;
   }
-  
   section.filters button{
     margin: 11px 30px 11px 0;
     font-size: 18px;
@@ -36,7 +35,6 @@
     margin-left: 30px;
     float: left;
   }
-  
   .amenities h3, .locations h3{
     font-weight: 600;
     margin: 17px 0 0 0;
@@ -79,7 +77,6 @@
     visibility: visible;
     margin-bottom: 50px;
   }
-  
   .amenities:hover > .popover{
     visibility: visible;
-  }  
+  }

@@ -16,7 +16,6 @@ header {
   /*****************************************************************/
   /* rotate burguer
   /*****************************************************************/
-  
   .main_nav_burguer {
     margin: .6rem 0 0 1rem;
     display: inline-block;
@@ -26,26 +25,22 @@ header {
     color: lightslategray;
     transition: .2s ease-in-out;
   }
-  
   .main_nav_burguer:hover {
     cursor: pointer;
     transform: rotate(0deg);
     color: silver;
     transition: .2s ease-in-out;
   }
-  
   /* accesibility focus ARIA */
   .main_nav_burguer:focus {
     background-color: antiquewhite;
   }
-  
   #main_check:checked {
     cursor: pointer;
     transform: rotate(0deg);
     color: silver;
     transition: .2s ease-in-out;
   }
-  
   /*****************************************************************/
   /* popup first level menu
   /*****************************************************************/
@@ -64,12 +59,10 @@ header {
   .nav_bar_level1 li ul {
     display: none;
   }
-  
   /* hide first level */
   .nav_bar_level1 li{
     display: none;
   }
-  
   /* display first level */
   #main_check:checked ~ * .nav_bar_level1 {
     display: block;
@@ -105,7 +98,6 @@ header {
     transition: .3s ease-in-out;
     width: 50vw;
   }
-  
   /*display second level */
   #second_check:checked  + ul{
     display: block;
@@ -115,7 +107,6 @@ header {
   }
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
-  
   }
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
@@ -128,6 +119,5 @@ header {
     }
   }
   /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-  
+  @media only screen and (min-width: 992px) { 
   }
